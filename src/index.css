@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-button-smaller{
+    margin-bottom: 0.5rem;
+}

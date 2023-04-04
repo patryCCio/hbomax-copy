@@ -1,0 +1,1168 @@
+@charset "UTF-8";
+.section {
+  color: white;
+  background-color: black;
+}
+
+.section.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-image: url("https://hbomax-images.warnermediacdn.com/2023-03/Succession_background_mobile.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  background-position: center -25vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 56vw 0.5rem 1rem 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.section.header .img {
+  width: 90%;
+  max-width: 260px;
+  margin-bottom: 0.9rem;
+}
+
+.section.header .img img {
+  width: 100%;
+}
+
+.section.header h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+.section.header .header-flexbox-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0;
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox h2 {
+  margin-bottom: 0.2rem;
+  max-width: 300px;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox h2 strong {
+  font-size: 1.6rem;
+  font-family: Gilroy, sans-serif;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox h2 small {
+  position: relative;
+  top: -11px;
+  left: 2px;
+  font-weight: normal;
+  font-size: 0.85rem;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox h2 small s {
+  position: relative;
+  right: 5px;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox h3 {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-bottom: 0.8rem;
+  max-width: 300px;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #b535f6;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.8rem;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox a:hover {
+  color: black;
+  background-color: white;
+}
+
+.section.header .header-flexbox-wrapper .header-flexbox:nth-child(1) {
+  margin-bottom: 2.2rem;
+}
+
+.section.header p {
+  font-size: 0.65rem;
+  line-height: 1rem;
+  color: #a3a2a2;
+  max-width: 600px;
+}
+
+.section.movies {
+  padding: 75vw 1rem 2rem 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://hbomax-images.warnermediacdn.com/2023-03/tlou_filtermodulelead_leadimageasset_mobile_image.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.section.movies .img {
+  width: 100%;
+  max-width: 200px;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.section.movies .img img {
+  width: 100%;
+}
+
+.section.movies .roll-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 1.5rem;
+}
+
+.section.movies .roll-wrapper .roll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  width: 700px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  gap: 0.7rem 5px;
+}
+
+.section.movies .roll-wrapper .roll button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.section.movies .roll-wrapper .roll button:hover {
+  background-color: white;
+  color: black;
+}
+
+.section.movies .roll-wrapper .roll button.active {
+  background-color: white;
+  color: black;
+}
+
+.section.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 1rem 3rem 1rem;
+  width: 100%;
+  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#010101), color-stop(#04041d), to(#020225));
+  background: linear-gradient(-180deg, #010101, #04041d, #020225);
+}
+
+.section.pictures h3 {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section.pictures .picture-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fc466b;
+  background: radial-gradient(circle, rgba(85, 8, 59, 0.5), rgba(4, 4, 29, 0.5), rgba(2, 2, 37, 0.5));
+}
+
+.section.pictures .picture-wrapper .picture {
+  width: 50%;
+  padding: 0.5rem;
+  height: auto;
+}
+
+.section.pictures .picture-wrapper .picture img {
+  width: 100%;
+}
+
+.section.trailer {
+  width: 100%;
+  padding: 85vw 1.5rem 5rem 1.5rem;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #030328;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section.trailer .all-trailer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 540px;
+}
+
+.section.trailer .img {
+  width: 100%;
+  max-width: 440px;
+  margin-bottom: 1.5rem;
+}
+
+.section.trailer .img img {
+  width: 100%;
+}
+
+.section.trailer h4 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.trailer a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+}
+
+.pink {
+  display: block;
+  margin: 0.8rem 0;
+  height: 2px;
+  width: 15%;
+  border: none;
+  background-color: #ff00ee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.info {
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 40px;
+}
+
+.section.info .info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 380px;
+}
+
+.section.info .info-box .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  max-width: 295px;
+  margin-bottom: 0.3rem;
+  overflow: hidden;
+}
+
+.section.info .info-box .img img {
+  width: 100%;
+}
+
+.section.info .info-box h2 {
+  margin-bottom: 1.2rem;
+}
+
+.section.info .info-box p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.section.subscription {
+  padding: 45vw 1rem 5rem 1rem;
+  background-image: url("https://hbomax-images.warnermediacdn.com/2022-11/221109_GoYearly_2500x800_mobile.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #030328;
+}
+
+.section.subscription .glass {
+  padding: 2rem 1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#491f6999), to(#491f6900));
+  background-image: linear-gradient(to bottom, #491f6999, #491f6900);
+  border: 2px solid #cd69ff50;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section.subscription .glass h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.section.subscription .glass h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #cd69ff;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.section.subscription .glass h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section.subscription .glass h4 small,
+.section.subscription .glass h4 s {
+  font-size: 0.8rem;
+  position: relative;
+  font-weight: normal;
+  margin: 0 0.3rem;
+  top: -10px;
+}
+
+.section.subscription .glass h5 {
+  font-weight: normal;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #cd69ff;
+}
+
+.section.subscription .glass ul {
+  list-style: none;
+  text-align: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 1rem 1rem 1.5rem 1rem;
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.section.subscription .glass ul li {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.section.subscription .glass ul li::before {
+  content: "√";
+  font-weight: bold;
+  color: #a45fe1;
+  margin: 0 10px 0 -15px;
+}
+
+.section.subscription .glass a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #b535f6;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.8rem;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.subscription .glass a:hover {
+  color: black;
+  background-color: white;
+}
+
+.section.subscription .glass p {
+  color: #a3a2a2;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
+.section.devices {
+  background-color: #030328;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.section.devices h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.section.devices .device-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section.devices .device-wrapper .device {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+  max-width: 270px;
+  padding: 1rem 0;
+}
+
+.section.devices .device-wrapper .device h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.section.devices .device-wrapper .device p {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.3rem;
+}
+
+.section.devices .device-wrapper .device .img {
+  width: 100%;
+  max-width: 130px;
+  margin-bottom: 1rem;
+}
+
+.section.devices .device-wrapper .device .img img {
+  width: 100%;
+}
+
+.section.devices .pink {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.section.register-now {
+  background-image: url("https://hbomax-images.warnermediacdn.com/2021-10/HBOMax%20price%20background%20V2.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1920");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1rem 1rem 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section.register-now .register-box {
+  width: 100%;
+  max-width: 300px;
+}
+
+.section.register-now h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section.register-now h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section.register-now h4 small,
+.section.register-now h4 s {
+  font-size: 0.8rem;
+  position: relative;
+  font-weight: normal;
+  margin: 0 0.3rem;
+  top: -10px;
+}
+
+.section.register-now a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #b535f6;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.8rem;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.register-now a:hover {
+  color: black;
+  background-color: white;
+}
+
+.section.register-now p {
+  font-size: 0.65rem;
+  line-height: 1rem;
+  color: #a3a2a2;
+}
+
+.section.questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 4rem 0rem 1rem 0rem;
+  background-image: url("https://hbomax-images.warnermediacdn.com/2021-07/hbo_max_background_faded.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1920");
+  background-position: center;
+  background-size: cover;
+}
+
+.section.questions h2 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 0 2.5rem;
+}
+
+.section.questions .question-wrapper {
+  width: 100%;
+  max-width: 570px;
+}
+
+.section.questions .question-wrapper .single-question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: #9e86ff;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  padding: 0 2.5rem;
+  cursor: pointer;
+}
+
+.section.questions .question-wrapper .single-question .text {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.section.questions .question-wrapper .single-question .add {
+  position: relative;
+  font-size: 2.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.section.questions .question-wrapper .single-question .add span {
+  position: absolute;
+  top: calc(50% - 5px);
+  left: -10px;
+  display: block;
+  background-color: #9e86ff;
+  width: 20px;
+  height: 2px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.section.questions .question-wrapper .single-question .add span:nth-child(1) {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.section.questions .question-wrapper .single-question .add span:nth-child(2) {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.section.questions .question-wrapper .single-question.active .add span:nth-child(1) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.section.questions .question-wrapper .single-question.active .add span:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.section.questions .question-wrapper .single-answer {
+  width: 100%;
+  max-width: 1170px;
+  max-height: 0;
+  line-height: 2rem;
+  margin: 0rem 0rem 0rem 0rem;
+  color: rgba(255, 255, 255, 0.8);
+  height: auto;
+  overflow: hidden;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  padding: 0 2.5rem;
+  font-size: 1.2rem;
+}
+
+.section.questions .question-wrapper .single-answer.active {
+  max-height: 1000px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.section.questions .question-wrapper .question-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.section.questions .question-wrapper .question-img .img {
+  width: 33%;
+  padding: 1rem;
+}
+
+.section.questions .question-wrapper .question-img .img img {
+  width: 100%;
+}
+
+.section.questions .question-wrapper.second h2 {
+  margin-top: 2.7rem;
+}
+
+.blue {
+  width: calc(100% - 5rem);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 1px;
+  margin: 1rem auto;
+}
+
+footer.section {
+  background-color: #030328;
+  padding: 2rem 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.section .footer {
+  width: 100%;
+  max-width: 720px;
+  text-align: center;
+  color: #9e86ff;
+}
+
+footer.section .footer ul {
+  list-style: none;
+}
+
+footer.section .footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0rem;
+}
+
+footer.section .footer .footer-top li {
+  padding: 0.5rem 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #9e86ff;
+}
+
+footer.section .footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer.section .footer .footer-bottom li {
+  padding: 0.7rem 1.4rem;
+  font-size: 0.75rem;
+  color: #866cee;
+}
+
+footer.section .footer p {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  color: #866cee;
+}
+
+@media (max-width: 575px) {
+  .section.header {
+    background-image: url("https://hbomax-images.warnermediacdn.com/2023-03/Succession_background_mobile.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  }
+  .section.trailer {
+    background-image: url("https://hbomax-images.warnermediacdn.com/2022-10/mobile_vertical_0.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  }
+  .section.info {
+    background-image: url("https://hbomax-images.warnermediacdn.com/2021-07/email_background_final%20%281%29.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=575");
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+  .section.trailer {
+    padding: 68vw 1.5rem 5rem 1.5rem;
+    background-size: 100%;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2022-10/mobile_vertical_0.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1024");
+  }
+  .section.trailer .img {
+    width: 61%;
+  }
+  .section.trailer h4 {
+    width: 61%;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section.header {
+    padding: 41vw 0.5rem 2rem 0.5rem;
+    background-position: center -37vw;
+  }
+  .section.header .img {
+    max-width: 350px;
+  }
+  .section.header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .section.header .header-flexbox-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 40px;
+    margin-bottom: 0.8rem;
+  }
+  .section.header .header-flexbox-wrapper .header-flexbox {
+    max-width: 300px;
+  }
+  .section.header .header-flexbox-wrapper .header-flexbox:nth-child(1) {
+    margin-bottom: 0.65rem;
+  }
+  .section.movies {
+    background-color: black;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2023-03/tlou_filtermodulelead_leadimageasset_desktop_image.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=2500");
+    background-size: 170%;
+    background-position: top center;
+    padding: 17vw 1rem 0.5rem 1rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section.movies .img {
+    max-width: 300px;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+  }
+  .section.movies .roll-wrapper .roll {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 650px;
+  }
+  .section.pictures h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .section.pictures .picture-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1140px;
+  }
+  .section.pictures .picture-wrapper .picture {
+    width: 33%;
+  }
+  .section.info {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 3rem 2rem 2rem 2rem;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2021-07/email_background_final%20%281%29.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=2559");
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+  }
+  .section.info .info-box {
+    width: 33%;
+  }
+  .section.subscription .glass ul {
+    width: 70%;
+  }
+  .section.devices h2 {
+    font-size: 2.5rem;
+  }
+  .section.devices .device-wrapper .device {
+    width: 25%;
+  }
+  .section.register-now {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section.register-now .register-box {
+    max-width: 280px;
+  }
+  .section.questions h2 {
+    font-size: 2.5rem;
+  }
+  .section.questions .question-wrapper .question-img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section.questions .question-wrapper .question-img .img {
+    padding: 0.7rem;
+    width: 100px;
+  }
+  .question-wrapper.second h2 {
+    margin-bottom: 3.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section.movies {
+    padding: 13vw 1rem 0.5rem 1rem;
+    background-size: 130%;
+    background-position: top;
+  }
+  .section.movies .roll-wrapper .roll {
+    width: 950px;
+  }
+  .section.movies .img {
+    margin-left: 7rem;
+  }
+  .section.trailer {
+    padding: 65vw 1.5rem 5rem 1.5rem;
+  }
+  .section.trailer .all-trailer {
+    max-width: 900px;
+  }
+  .section.trailer h4 {
+    font-size: 1.5rem;
+  }
+  .section.register-now {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .section.register-now .register-box {
+    max-width: 377px;
+  }
+  .section.questions h2 {
+    margin-bottom: 2rem;
+  }
+  .section.questions .question-wrapper {
+    max-width: 730px;
+  }
+  .section.questions .question-wrapper .question-img {
+    margin-bottom: 3rem;
+  }
+  .section.questions .question-wrapper .question-img .img {
+    width: 140px;
+  }
+  .section.questions .question-wrapper.second h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1336px) {
+  .section.header {
+    padding: 30vw 0.5rem 4rem 0.5rem;
+    background-position: center 0px;
+    background-size: 140%;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2023-03/Succession_background_desktop.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=3600");
+  }
+  .section.movies {
+    background-size: 100%;
+    padding: 10vw 1rem 0.5rem 1rem;
+  }
+  .section.movies .roll-wrapper .roll {
+    width: 700px;
+  }
+  .section.pictures .picture-wrapper .picture {
+    width: 20%;
+  }
+  .section.trailer {
+    background-size: 122%;
+    background-position: top;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2022-09/desktop_1.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=3304");
+    padding: 4rem 20rem 4rem 1.5rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .section.trailer .all-trailer {
+    max-width: 540px;
+  }
+  .section.subscription {
+    padding: 20vw 1rem 5rem 1rem;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2022-10/Go-Yearly-2500x800_v5.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=2500");
+  }
+  .section.subscription .glass {
+    max-width: 570px;
+  }
+  .section.subscription .glass h2 {
+    font-size: 2rem;
+  }
+  .section.subscription .glass ul {
+    width: 60%;
+  }
+  .section.questions .question-wrapper {
+    max-width: 880px;
+  }
+  .section.questions .question-wrapper .question-img .img {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .section.header {
+    padding: 19vw 0.5rem 5rem 0.5rem;
+    background-position: center -70px;
+  }
+}
+/*# sourceMappingURL=home.css.map */
